@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta hhtp-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srijon Sharma CSE Student</title>
+    <link rel="icon" href="Logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="top-banner">
+        <div class="half-width">
+            <h1>Welcome To <span class="orange-highlight">Srijon Sharma's</span> Profile</h1>
+            <h3>Passionate Computer Science and Engineer</h3>
+            <p>I am a passionate Computer Science and Engineering (CSE) student with a strong interest in web technologies.</p>
+        </div>
+        <div class="half-width">
+            <img src="./Images/584256569_4381673232067866_7585584797011809028_n.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="dream-area">
+        <div class="half-width">
+            <h2>Big Dream</h2>
+            <h3>Systems Engineer</h3>
+            <p>I envision a future where I can build intelligent software, design scalable systems, and create AI-driven solutions.</p>
+        </div>
+        <div class="half-width">
+            <img src="./Images/images.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="experience-area">
+        <h2>Experiences</h2>
+
+        <div id="technical-field" class="half-width single-experience">
+            <h2>Technical Tools</h2>
+            <h3 class="orange-highlight">2024 - Present | Learning Level</h3>
+            <p>I am gaining hands-on experience using VS Code, GitHub, and programming frameworks.</p>
+        </div>
+
+        <div id="robotics-field" class="half-width single-experience">
+            <h2>System Analysis</h2>
+            <h3 class="orange-highlight">2024 - Present</h3>
+            <p>I analyze system workflows, functional requirements, and optimization opportunities.</p>
+        </div>
+
+        <div id="baby-web" class="half-width single-experience">
+            <h2>Kidstar Coder</h2>
+            <h3 class="orange-highlight">2024-2025 | Beginner Level Coder</h3>
+            <p>I learned HTML, CSS, C, C++, and Python. I built simple projects and practiced responsive design.</p>
+            <a class="link-button" target="_blank" href="https://github.com/sri-jon">SEE PROJECTS</a>
+        </div>
+    </section>
+
+    <section class="interest-area">
+        <h2>Interest</h2>
+
+        <div id="interest-field" class="half-width single-experience">
+            <h2>Interested Fields</h2>
+            <h3 class="orange-highlight">2024-2025 | Beginner Level</h3>
+            <p>My interests include AI, ML, Software Development, Cybersecurity, Data Science, IoT, and Robotics.</p>
+        </div>
+    </section>
+
+    <section class="interest-area">
+        <div id="interest-field" class="half-width single-experience">
+            <h2>Photography & Visual Storytelling</h2>
+            <h3 class="orange-highlight">2024–Present | Enthusiast</h3>
+            <p>I love street photography, capturing real-life moments and creative compositions.</p>
+        </div>
+    </section>
+
+    <section class="achievment-area">
+        <h2>Achievements</h2>
+
+        <div class="half-width">
+            <img src="./Images/achieve.png" alt="">
+        </div>
+
+        <div id="achievment-field" class="half-width single-experience">
+            <h3>View my Achievements, Certificates & Prizes</h3>
+            <p>I haven’t won major awards yet, but my photos have been exhibited in several photography showcases.</p>
+        </div>
+    </section>
+
+    <section class="gallery-area">
+        <h2>
+            <a class="gallery-button" href="" target="_blank">Gallery</a>
+        </h2>
+        <div class="gallery">
+            <img src="./Images/505442800_4222401801328344_5041096201172243875_n.jpg" alt="">
+            <img src="./Images/505452165_4222789504622907_616565005577118464_n.jpg" alt="">
+            <img src="./Images/505491341_4223264594575398_8063837719353226582_n.jpg" alt="">
+            <img src="./Images/573632319_4364138860487970_4881067307423891576_n.jpg" alt="">
+            <img src="./Images/591754963_4392105577691298_3112703819892184212_n.jpg" alt="">
+        </div>
+    </section>
+
+    <div class="social">
+        <a class="link-button" id="contact_button" href="">CONTACT ME</a>
+        <a href="https://www.facebook.com/srijon.sharma.235311" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/srijon-sharma-614b69368/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Sri-jon" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:srijonsharma2004@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+    </div>
+
+    <footer>
+        <p style="text-align: center">- Glad you dropped in!</p>
+    </footer>
+
+    <div class="contact-popup-overlay" id="contactPopup">
+        <div class="contact-popup-box">
+            <form class="contact-popup-form">
+                <h2 class="contact-popup-title">Let's Get in Touch</h2>
+                <label class="contact-popup-label">Email</label>
+                <input type="email" class="contact-popup-input" id="contact-popup-email" placeholder="Enter Email" required>
+
+                <label class="contact-popup-label">Message</label>
+                <textarea class="contact-popup-textarea" id="contact-popup-message" placeholder="Enter Message" required></textarea>
+
+                <button type="submit" class="contact-popup-submit" id="contact-popup-submit">Submit</button>
+                <button type="button" class="contact-popup-cancel" onclick="closeContactPopup()">Close</button>
+            </form>
+        </div>
+    </div>
+    <div class="contact-popup-overlay" id="submissionPopup">
+        <div class="contact-popup-box">
+            <form class="contact-popup-form">
+                <h2 class="contact-popup-submitted-title">Thank You For Messaging!</h2>
+                <p class="contact-popup-submitted-message">Your message has been submitted successfully. I will contact you as soon as possible.</p>
+                <button type="button" class="contact-popup-cancel" onclick="closeContactPopup()">Close</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
