@@ -12,76 +12,125 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<!-- Navigation Menu -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <h3 class="navbar-logo">Srijon Sharma</h3>
+            <ul class="nav-menu">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#blogs">Hobbies & Work</a></li>
+                 <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+                <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <section class="top-banner">
+    <!-- Home Section -->
+    <section id="home" class="top-banner">
+    <div class="half-width">
+        <h1>Welcome to <span class="orange-highlight">Srijon Sharma's</span> Portfolio</h1>
+        <p>
+            I am a Computer Science and Engineering (CSE) student with a strong foundation in programming and software development. I am passionate about learning and applying industry best practices to build scalable, reliable, and efficient applications, with a growing interest in modern web technologies.
+        </p>
+    </div>
+    <div class="half-width">
+        <img src="./Images/584256569_4381673232067866_7585584797011809028_n.jpg" alt="Srijon Sharma">
+    </div>
+</section>
+
+    <!-- About Me Section -->
+    <section id="about" class="dream-area">
         <div class="half-width">
-            <h1>Welcome To <span class="orange-highlight">Srijon Sharma's</span> Profile</h1>
-            <h3>Passionate Computer Science and Engineer</h3>
-            <p>I am a passionate Computer Science and Engineering (CSE) student with a strong interest in web technologies.</p>
+            <h2>About Me</h2>
+            <h3>Who I Am</h3>
+            <p>I am a passionate Computer Science student at International Islamic University Chittagong, with a keen interest in software development, system design, and emerging technologies. My journey in tech started with curiosity and has evolved into a commitment to building practical solutions that matter.</p>
+            <p style="margin-top: 1rem;">Beyond coding, I am an enthusiast of photography, capturing real-life moments and creative compositions. I believe in continuous learning and staying updated with industry trends.</p>
         </div>
         <div class="half-width">
-            <img src="./Images/584256569_4381673232067866_7585584797011809028_n.jpg" alt="">
+            <img src="./Images/1000_F_276691386_nl0MPBlwN5sgVhMHmkdqf5nWCHUSEaWs.jpg" alt="About Me">
         </div>
     </section>
 
-    <section class="dream-area">
-        <div class="half-width">
-            <h2>Big Dream</h2>
-            <h3>Systems Engineer</h3>
-            <p>I envision a future where I can build intelligent software, design scalable systems, and create AI-driven solutions.</p>
-        </div>
-        <div class="half-width">
-            <img src="./Images/images.jpg" alt="">
-        </div>
-    </section>
+    <!-- Education Section -->
+    <section id="education" class="education-area">
+    <h2>Education</h2>
 
-    <section class="experience-area">
-        <h2>Experiences</h2>
+    <div id="university-field" class="half-width single-experience">
+        <h2>Bachelor of Science in Computer Science and Engineering (CSE)</h2>
+        <h3 class="orange-highlight">International Islamic University Chittagong</h3>
+        <p>
+            Currently studying in the 4th semester of the Bachelor of Science in Computer Science and Engineering (CSE) program, with a strong academic focus on software development, system design, and emerging technologies.
+        </p>
+    </div>
 
-        <div id="technical-field" class="half-width single-experience">
-            <h2>Technical Tools</h2>
-            <h3 class="orange-highlight">2024 - Present | Learning Level</h3>
-            <p>I am gaining hands-on experience using VS Code, GitHub, and programming frameworks.</p>
-        </div>
+    <div class="half-width single-experience">
+        <h2>Higher Secondary Certificate (HSC)</h2>
+        <h3 class="orange-highlight">Completed in 2021</h3>
+        <p>
+            Successfully completed the Higher Secondary Certificate (HSC) examination in 2021, building a strong foundation in science and analytical thinking.
+        </p>
+    </div>
+</section>
 
-        <div id="robotics-field" class="half-width single-experience">
-            <h2>System Analysis</h2>
+    <!-- Projects Section -->
+    <section id="projects" class="projects-area">
+        <h2>Projects</h2>
+
+        <div class="half-width single-experience">
+            <h2>Portfolio Website</h2>
             <h3 class="orange-highlight">2024 - Present</h3>
-            <p>I analyze system workflows, functional requirements, and optimization opportunities.</p>
+            <p>Built a responsive personal portfolio website using HTML, CSS, and JavaScript. Features include contact form integration with Google Sheets and dynamic user interface.</p>
+            <a class="link-button" target="_blank" href="https://github.com/Sri-jon">View on GitHub</a>
         </div>
 
-        <div id="baby-web" class="half-width single-experience">
-            <h2>Kidstar Coder</h2>
-            <h3 class="orange-highlight">2024-2025 | Beginner Level Coder</h3>
-            <p>I learned HTML, CSS, C, C++, and Python. I built simple projects and practiced responsive design.</p>
-            <a class="link-button" target="_blank" href="https://github.com/sri-jon">SEE PROJECTS</a>
+        <div class="half-width single-experience">
+            <h2>Web Development Projects</h2>
+            <h3 class="orange-highlight">2024</h3>
+            <p>Multiple small web projects demonstrating proficiency in HTML, CSS, and JavaScript. Projects focus on responsive design and user experience.</p>
+            <a class="link-button" target="_blank" href="https://github.com/Sri-jon">See Projects</a>
         </div>
-    </section>
 
-    <section class="interest-area">
-        <h2>Interest</h2>
-
-        <div id="interest-field" class="half-width single-experience">
-            <h2>Interested Fields</h2>
-            <h3 class="orange-highlight">2024-2025 | Beginner Level</h3>
-            <p>My interests include AI, ML, Software Development, Cybersecurity, Data Science, IoT, and Robotics.</p>
+        <div class="half-width single-experience">
+            <h2>Programming Exercises</h2>
+            <h3 class="orange-highlight">2024 - Present</h3>
+            <p>Continuous practice with C, C++, and Python programming languages. Building algorithms, data structures, and problem-solving skills through hands-on coding.</p>
+            <a class="link-button" target="_blank" href="https://github.com/Sri-jon">Explore Code</a>
         </div>
-    </section>
 
-    <section class="interest-area">
-        <div id="interest-field" class="half-width single-experience">
-            <h2>Photography & Visual Storytelling</h2>
-            <h3 class="orange-highlight">2024–Present | Enthusiast</h3>
-            <p>I love street photography, capturing real-life moments and creative compositions.</p>
+        <div class="half-width single-experience">
+            <h2>System Analysis & Design</h2>
+            <h3 class="orange-highlight">2024 - Present</h3>
+            <p>Analyzing system workflows, functional requirements, and optimization opportunities. Learning best practices in software architecture and system design.</p>
         </div>
     </section>
+    <!-- Hobbies & Work Section -->
+    <section id="blogs" class="blogs-area">
+        <h2>Hobbies & Work</h2>
 
-    <section class="achievment-area">
+        <div class="half-width single-experience">
+            <h2>Photography</h2>
+            <h3 class="orange-highlight">Ongoing</h3>
+            <p>I photograph the streets where life happens without permission—quiet moments, passing faces, and stories written in light and shadow. Each frame is an attempt to preserve emotion before it fades.</p>
+            <a class="link-button" target="_blank" href="https://www.instagram.com/srijonsharma/">View My Work</a>
+        </div>
+        <div class="half-width single-experience">
+            <h2>Videography</h2>
+            <h3 class="orange-highlight">Ongoing</h3>
+            <p>An aspiring filmmaker with a deep enthusiasm for cinematic storytelling. I explore light, motion, and rhythm to craft visually compelling videos that capture mood, meaning, and memorable moments.</p>
+            <a class="link-button" target="_blank" href="https://www.instagram.com/srijonsharma/">View My Work</a>
+        </div>
+          </section>
+
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievment-area">
         <h2>Achievements</h2>
 
         <div class="half-width">
-            <img src="./Images/achieve.png" alt="">
+            <img src="./Images/stock-vector-achievement-gold-plated-metalic-icon-logo-vector.jpg" alt="">
         </div>
 
         <div id="achievment-field" class="half-width single-experience">
@@ -111,9 +160,18 @@
         <a href="mailto:srijonsharma2004@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
     </div>
 
-    <footer>
-        <p style="text-align: center">- Glad you dropped in!</p>
-    </footer>
+    <!-- CV Download Section -->
+    <section class="cv-download-section">
+        <div class="cv-content">
+            <h2>Get My Resume</h2>
+            <p>Download my CV to learn more about my skills, experience, and qualifications.</p>
+            <button class="link-button cv-btn" id="cv-download-btn">
+                <i class="fas fa-download"></i> Download CV
+            </button>
+        </div>
+    </section>
+
+
 
     <div class="contact-popup-overlay" id="contactPopup">
         <div class="contact-popup-box">
