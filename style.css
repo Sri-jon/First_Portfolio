@@ -16,7 +16,7 @@ body {
 h1 {
   font-size: 3vw; 
   color: #d4af37;
-  margin: 0 0 1rem 0;
+  margin: 2rem 0 1rem 0;
  }
 h2{
    font-size: 2vw;
@@ -67,12 +67,13 @@ section h2 {
   padding: 1.5rem;
 }
 .half-width img {
-  width: 70%;
-  max-width: 700%;
+  width: 50%;
+  max-width: 50%;
   height: auto;
   border-radius: 1vw;
   border: 2px solid #d4af37;
   display: block;
+  margin-left: auto;
 }
 
 /* Background Areas */
@@ -183,16 +184,25 @@ section h2 {
 
 /* Social Icons */
 .social {
-  display: flex;
-  justify-content: center;
-  gap: 3vw;
-  margin: 5vh 0;
-  font-size: 4vw;
-  color: #d4af37;
-  text-decoration: none;
-  transition: color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
 }
-.social:hover { color: #fff; }
+
+.social-icons {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.social-icons a {
+    color: #d4af37;
+}
+
 
 /* Footer */
 footer p { text-align: center; font-size: 1.5vw; color: #666; }
@@ -285,10 +295,16 @@ footer p { text-align: center; font-size: 1.5vw; color: #666; }
 .nav-cv::before { display:none; }
 
 /* Contact Popup */
-#contact_button { 
-  display:flex; 
-  justify-content:center; 
-  align-items:center; }
+/* Contact button as icon-style */
+#contact_button {
+  padding: 0.6rem 1rem;
+  font-size: 0.85rem;
+  border-radius: 10px;
+  box-shadow: none;
+  height: auto;
+}
+
+
 .contact-popup-overlay {
   display:none;
   position:fixed; 
@@ -407,9 +423,9 @@ footer p { text-align: center; font-size: 1.5vw; color: #666; }
      text-align:center;
       margin:2vh auto;}
   .gallery img{
-    width:70vw;}
+    width:50vw;}
   .link-button{
-    font-size:3vw; padding:2vh 5vw;}
+    font-size:2vw; padding:1.5vh 4vw;}
   footer p{
     font-size:3vw;}
   .cv-content h2{
