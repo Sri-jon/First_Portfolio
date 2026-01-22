@@ -6,13 +6,13 @@
 
 body {
   margin: 0;
-  padding-top: 80px; /* fixed navbar adjustment */
+  padding-top: 80px;
   font-family: "Poppins", sans-serif;
   background-color: #000;
   color: #fff;
 }
 
-/* Headings & Text */
+/* Headings and Text */
 h1 {
   font-size: 3vw; 
   color: #d4af37;
@@ -59,7 +59,7 @@ section h2 {
   margin-bottom: 2rem;
 }
 
-/* Layout */
+
 .half-width {
   flex: 1 1 40vw;
   max-width: 40vw;
@@ -294,7 +294,6 @@ footer p { text-align: center; font-size: 1.5vw; color: #666; }
 }
 .nav-cv::before { display:none; }
 
-/* Contact Popup */
 /* Contact button as icon-style */
 #contact_button {
   padding: 0.6rem 1rem;
